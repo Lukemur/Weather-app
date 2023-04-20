@@ -1,0 +1,25 @@
+body{
+    min-height: 100%;
+    background-color: background: #FBFFFF;
+    background: -moz-linear-gradient(-45deg, #FBFFFF 0%, #2CAAFF 100%);
+    background: -webkit-linear-gradient(-45deg, #FBFFFF 0%, #2CAAFF 100%);
+    background: linear-gradient(135deg, #FBFFFF 0%, #2CAAFF 100%);;
+}
+html {
+    height: 100%;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+img{
+    padding: 5px;
+}
+.fiveday {
+	display: flex;
+	align-items: center;
+	}
+    .forecast{
+        padding: 0.3em;
+    }
